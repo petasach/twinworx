@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>TwinWorx – Komplexní řešení na míru</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --white: #FEFEFE;
+            --blue: #013060;
+            --pink: #F4B8AE;
+            --gray: #72839C;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: var(--white);
+            color: var(--blue);
+            line-height: 1.55;
+        }
+
+        section {
+            padding: 110px 10vw;
+        }
+
+        h1, h2, h3 {
+            margin: 0 0 24px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--blue);
+        }
+
+        h1 {
+            font-size: clamp(3rem, 7vw, 5.2rem);
+        }
+
+        h2 {
+            font-size: clamp(1.8rem, 4vw, 2.6rem);
+        }
+
+        h3 {
+            font-size: 1rem;
+            letter-spacing: 0.14em;
+        }
+
+        p {
+            max-width: 820px;
+            font-size: 1rem;
+            color: var(--blue);
+        }
+
+        hr {
+            width: 80vw;
+            border-top: 2px solid;
+            border-color: var(--pink);
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-presskit {
+            min-height: 100vh;
+            background: var(--white);
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-inner {
+            padding-left: 10vw;
+        }
+
+        .logo {
+            font-size: clamp(4.5rem, 9vw, 7rem);
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            margin: 0 0 10px;
+            line-height: 1;
+        }
+
+        .blue {
+            color: var(--blue);
+        }
+
+        .pink {
+            color: var(--pink);
+        }
+
+        .pinkback {
+            color: var(--blue);
+        }
+
+        .pinkback span {
+            background: var(--pink);
+        }
+
+        .claim {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 0.28em;
+            text-transform: uppercase;
+            line-height: 1.4;
+            margin-bottom: 60px;
+        }
+
+        .claim div {
+            margin-bottom: 18px;
+        }
+
+        .hashtag {
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--blue);
+        }
+
+        .lead {
+            font-size: 1.3rem;
+            color: var(--blue);
+            max-width: 720px;
+            margin-bottom: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 60px;
+            margin-top: 60px;
+        }
+
+        .box {
+            border-top: 2px solid var(--blue);
+            padding-top: 20px;
+        }
+
+        .hashtag {
+            margin-top: 60px;
+            font-weight: 800;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--blue);
+        }
+
+        .accent {
+            color: var(--pink);
+        }
+
+        footer {
+            padding: 60px 10vw;
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--gray);
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero-presskit">
+    <div class="hero-inner">
+
+        <h1 class="logo">
+            <span class="blue">TWIN</span><span class="pink">WORX</span>
+        </h1>
+
+        <div class="claim">
+            <div class="pinkback"><span>CREATE</span></div>
+            <div class="blue">UNIQUE</div>
+        </div>
+
+        <div class="hashtag">#poradneseuspinit</div>
+
+    </div>
+</section>
+
+<hr>
+
+<!-- KDO JSME -->
+<section>
+    <h2>Kdo jsme</h2>
+    <p>
+        TwinWorks je kreativní produkční a poradenská společnost zaměřená na kulturní, sportovní, firemní i soukromé akce. Ke každému projektu přistupujeme individuálně a vytváříme řešení na míru bez univerzálních šablon.
+    </p>
+</section>
+
+<hr>
+
+<!-- CO DĚLÁME -->
+<section>
+    <h2>Co děláme</h2>
+
+    <div class="grid">
+        <div class="box">
+            <h3>Eventy & produkce</h3>
+            <p>
+                Organizace kulturních a sportovních akcí, firemní a soukromé
+                eventy, svatby, promo a branding.
+            </p>
+        </div>
+
+        <div class="box">
+            <h3>Poradenství & legislativa</h3>
+            <p>
+                Pomoc při jednání s veřejnými institucemi, konzultace
+                v oblasti legislativy, nastavení procesů a odpovědností.
+            </p>
+        </div>
+
+        <div class="box">
+            <h3>Dodavatelé & obchodní model</h3>
+            <p>
+                Výběr vhodných dodavatelů, návrh optimálního technického
+                vybavení a obchodního modelu dle typu akce.
+            </p>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<!-- ENERGETIKA -->
+<section>
+    <h2>Energetika</h2>
+
+    <div class="grid">
+        <div class="box">
+            <h3>Motorgenerátory</h3>
+            <p>
+                Dodávka a pronájem dieselových generátorů,
+                dimenzování dle reálné spotřeby, instalace,
+                obsluha a dohled.
+            </p>
+        </div>
+
+        <div class="box">
+            <h3>Bateriová úložiště (BESS)</h3>
+            <p>
+                Mobilní bateriová úložiště pro tichý provoz,
+                bezemisní nebo hybridní řešení,
+                záloha napájení a vyrovnávání špiček.
+            </p>
+        </div>
+
+        <div class="box">
+            <h3>Hybridní a dočasná energetika</h3>
+            <p>
+                Kombinace generátorů, baterií a distribuční sítě,
+                optimalizace spotřeby a stabilní napájení po celou dobu akce.
+            </p>
+        </div>
+
+        <div class="box">
+            <h3>Energetický management</h3>
+            <p>
+                Návrh dimenzování rozvodů a jištění,
+                monitoring spotřeby, záložní scénáře
+                a krizová připravenost.
+            </p>
+        </div>
+    </div>
+
+    <div class="hashtag">#responsibly</div>
+</section>
+
+<hr>
+
+<!-- PRO KOHO -->
+<section>
+    <h2>Pro koho</h2>
+    <p>
+        Kulturní a hudební akce, sportovní a městské události,
+        firemní eventy, promo akce a dočasné instalace.
+    </p>
+</section>
+
+<hr>
+
+<!-- VŠE NA KLÍČ -->
+<section>
+    <h2>Vše na klíč</h2>
+    <p>
+        Návrh → realizace → provoz.<br>
+        Jeden partner pro produkci i energetiku.<br>
+        Řešení přizpůsobené konkrétnímu zadání.
+    </p>
+
+    <div class="hashtag">#innovative &nbsp; #lovebrand</div>
+</section>
+
+<hr>
+
+<section>
+    <h2>Parťáci</h2>
+    <p>tady budou loga</p>
+    
+</section>
+
+<hr>
+
+<!-- KONTAKT -->
+<section class="contact">
+    <h2>Kontakt</h2>
+
+    <p>
+        <strong>TwinWorx, s.r.o.</strong><br>
+        Jednatel: Tomáš Hašek<br>
+        Tel.: +420 723 908 949<br>
+        E-mail: twinworx@seznam.cz
+    </p>
+
+    <p>
+        IČO: 22136193<br>
+        DIČ: CZ22136193<br>
+        Datová schránka: xt4jsan
+    </p>
+
+    <p>
+        Adresa: Vrchlického 1647, 436 01 Litvínov<br>
+        Bankovní spojení: ČSOB 347729984/0300
+    </p>
+
+    <p>
+        Spisová značka C 52859 vedená u Krajského soudu v Ústí nad Labem
+    </p>
+</section>
+
+<footer>
+    © TwinWorx
+</footer>
+
+</body>
+</html>
